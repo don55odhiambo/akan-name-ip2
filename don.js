@@ -5,7 +5,7 @@ function myform() {
     var gender= parseInt(document.getElementById("gender").value);
 
     var c =(year.slice(0,2));
-    var y =(year.slice(3,4));
+    var y =(year.slice(2,4));
 
     var weekday = ( ( (C/4) - (2 * CC - 1)) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7; 
 
