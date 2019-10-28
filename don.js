@@ -33,7 +33,7 @@ function myform() {
     }
     else if(gender=="female" && wd===1) { return document.getElementById("result").innerHTML=fname[1];
     }
-    else if(gender=="female" && wd===2) { return document.getElementById("result").innerHTML=fname[2];
+    else if(gender=="female" && wd==2) { return document.getElementById("result").innerHTML=fname[2];
     }
     else if(gender=="female" && wd===3) { return document.getElementById("result").innerHTML=fname[3];
     }
